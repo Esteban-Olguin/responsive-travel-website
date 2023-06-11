@@ -1,0 +1,17 @@
+{
+  "name": "responsive-travel-website",
+  "version": "1.0.0",
+  "description": "- Responsive Travel Website Design Using HTML CSS & JavaScript - Contains animations when scrolling. - Smooth scrolling in each section. - Developed first with the Mobile First methodology, then for desktop. - Compatible with all mobile devices and with a beautiful and pleasant user interface.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss assets/scss/styles.scss assets/css/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.0.0",
+    "nodemon": "^2.0.22"
+  }
+}
